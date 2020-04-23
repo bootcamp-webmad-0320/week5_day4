@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.carousel-images p {
+  text-align: center; }
+
+.carousel-images img {
+  width: 90%;
+  display: block;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=style.css.map */

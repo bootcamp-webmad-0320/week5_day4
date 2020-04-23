@@ -1,0 +1,16 @@
+<h1>Galería</h1>
+
+<div class="carousel-images">
+    {{#each allThePictures}}
+    <article>
+        <img src="{{path}}" alt="{{name}}">
+        <p>{{name}}</p>
+    </article>
+    {{/each}}
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="/javascripts/slider-config.js"></script>
