@@ -1,12 +1,29 @@
-# Express generator
+# week5_day4
 
-Boilerplate for a basic ExpressJS backend
+> Express | File upload
+>
+> Express | CDN file upload
 
-## Install
 
-- Run `npm i` on the root directory
+## Main points: file upload (local)
 
-## Run
+- Los formularios con controles de tipo `file` requeren el atributo `enctype="multipart/form-data"` para procesar el envío de archivos.
 
-- Create a `.env` file on the root directory to populate the database (`DB`) and port (`PORT`)
-- Run `npm run dev` command on the root directory
+- La dependencia `multer` crea en el objeto `request` la propiedad `file` donde guarda los detalles de la subida tras actuar como middleware.
+
+- Las propiedades del objeto req.file son:
+
+  * fieldname
+  * originalname
+  * encoding
+  * mimetype
+  * size
+  * destination
+  * filename
+  * path
+  * buffer
+
+
+## Main points: file upload (CDN)
+
+- Las dependencias `cloudinary`, `multer-storage-cloudinary` y `multer` pueden combinarse para conectar Express al CDN Cloudinary.
