@@ -4,7 +4,6 @@
 >
 > Express | CDN file upload
 
-Vídeo disponible [en este enlace](https://ironhack.zoom.us/rec/share/y-1TE7Pg00RLAafvsUDUALxwPqqiT6a813NN8vMIyhqFZuQ21gyGqrATUnAIcoke)
 
 
 ## Main points: file upload (local)
